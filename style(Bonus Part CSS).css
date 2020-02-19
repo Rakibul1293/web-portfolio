@@ -41,18 +41,63 @@ section {
 	color: white;
 	font-weight: 700;
 }
+
+/* Example of Pseudo Class */
+/* 
 .link-button:hover {
 	color: orangered;
 	font-size: 17px;
 	/* background-color: red; */
 	background-image: linear-gradient(180deg, blue, cyan);
 }
+*/
+
+/*
 .link-button:focus {
 	color: white;
 	font-size: 15px;
 	/* background-color: red; */
 	background-image: linear-gradient(180deg, blue, cyan);
 }
+*/
+
+/* li:first-child {
+	color: blue;
+}
+li:last-child {
+	color: blue;
+}
+li:nth-child(2n) {
+	color: blue;
+} */
+/* a:visited {
+	color: blue;
+} */
+
+
+
+/* Example of Pseudo Element */
+/* .link-button::before {
+	content: "Hello ";
+	color: blue;
+	font-size: 12px;
+	background-color: cyan;
+}
+.link-button::after {
+	content: "Bye ";
+	color: blue;
+	font-size: 12px;
+	background-color: cyan;
+} */
+/* body {
+	counter-reset: section;
+}
+p::before {
+	counter-increment: section;
+	content: "Crush " counter(section) ": ";
+	color: red;
+} */
+
 .dream-area {
 	background-image: url("images/dream-bg.png");
 	background-repeat: no-repeat;
@@ -83,3 +128,11 @@ footer p {
 	text-align: center;
 	font-size: 12px;
 }
+
+
+/* How Work
+01. overflow, 
+02. media-query, 
+03. animation, 
+04. CSS3, 
+05. Advanced Selectors */
